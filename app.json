@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Workout-Tracker",
-    "slug": "Workout-Tracker",
+    "slug": "workout-tracker",
+    "owner": "sandnes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -28,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af5958ec-756c-4f1e-943b-bbbc1dfcf8ff"
+      }
     }
   }
 }
